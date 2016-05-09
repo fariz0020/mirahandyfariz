@@ -100,19 +100,19 @@
 									<div class="nav-align-center">
 										<ul class="nav nav-pills" role="tablist">
 											<li class="active">
-												<a href="#studio" role="tab" data-toggle="tab">
+												<a href="#renang" role="tab" data-toggle="tab">
 													<i class="material-icons">pool</i>
 													Beach
 												</a>
 											</li>
 											<li>
-												<a href="#work" role="tab" data-toggle="tab">
+												<a href="#pemandangan" role="tab" data-toggle="tab">
 													<i class="material-icons">panorama</i>
 													Nature
 												</a>
 											</li>
 											<li>
-												<a href="#cake" role="tab" data-toggle="tab">
+												<a href="#ultah" role="tab" data-toggle="tab">
 													<i class="material-icons">cake</i>
 													Birthday
 												</a>
@@ -120,7 +120,7 @@
 										</ul>
 
 										<div class="tab-content gallery">
-											<div class="tab-pane active" id="studio">
+											<div class="tab-pane active" id="renang">
 												<div class="row">
 													<div class="col-md-6">
 														<img src="assets/image/beach-1.jpg" class="img-rounded" />
@@ -132,7 +132,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="tab-pane text-center" id="work">
+											<div class="tab-pane text-center" id="pemandangan">
 												<div class="row">
 													<div class="col-md-6">
 														<img src="assets/image/panorama-1.jpg" class="img-rounded" />
@@ -145,7 +145,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="tab-pane text-center" id="Birthday">
+											<div class="tab-pane text-center" id="ultah">
 												<div class="row">
 													<div class="col-md-6">
 														<img src="assets/image/cake-1.jpg" class="img-rounded" />
@@ -190,4 +190,26 @@
 
 
 	</body>
+	
+	<!--   Core JS Files   -->
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/material.min.js"></script>
+
+	<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+	<script src="js/nouislider.min.js" type="text/javascript"></script>
+
+	<!--  Plugin for the Datepicker, full documentation here: http://www.eyecon.ro/bootstrap-datepicker/ -->
+	<script src="js/bootstrap-datepicker.js" type="text/javascript"></script>
+
+	<!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
+	<script src="js/material-kit.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+		$().ready(function(){
+			// the body of this function is in assets/material-kit.js
+			$(window).on('scroll', materialKit.checkScrollForTransparentNavbar);
+		});
+	</script>
+
 </html>
