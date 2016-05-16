@@ -1,0 +1,62 @@
+/* style.css */
+#intro { 
+	background:url(../assets/image/diarykomedian.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	margin: 0 auto;
+	padding: 0;
+	border-radius: 25%;
+	margin-top: 60px;
+}
+
+.counter-wrapper {
+  width: 100%;
+  padding: 100px 0;
+  background: #414856;  
+}
+
+.counter-wrapper .line {
+  background-color: #fff !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.counter { 
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  color: #fff !important;
+  display: inline-block;
+  margin-bottom: 18px;
+}
+
+.counter > .counter {
+  margin-bottom: 0;
+}
+
+code, code > .counter {
+  text-align: left;
+  display: block;
+  font-family: Monaco, monospace;
+  background: #444;
+  color: #fff;
+  padding: 20px;
+  font-size: 14px;
+}
+	
+code > .counter {
+  padding: 0;
+  margin: 0;
+}
+	
+@media only screen and (max-width: 1024px) {
+.counter {
+  font-size: 33px;
+}
+}
+	
+@media only screen and (max-width: 800px) {
+.counter {
+  font-size: 33px;
+}		
+}
