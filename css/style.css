@@ -1,4 +1,6 @@
 /* style.css */
+
+/*  background parallax */  
 #intro { 
 	background:url(../assets/image/diarykomedian.jpg) 50% 0 no-repeat fixed;
 	color: white;
@@ -8,6 +10,7 @@
 	margin-top: 60px;
 }
 
+/*  Counter */  
 .counter-wrapper {
   width: 100%;
   padding: 100px 0;
@@ -58,5 +61,4 @@ code > .counter {
 @media only screen and (max-width: 800px) {
 .counter {
   font-size: 33px;
-}		
 }
