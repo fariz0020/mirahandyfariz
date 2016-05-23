@@ -62,3 +62,9 @@ code > .counter {
 .counter {
   font-size: 33px;
 }
+
+/* header */
+.header-page {
+  min-height: 70px;
+}
+
